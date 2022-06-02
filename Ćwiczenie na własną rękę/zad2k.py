@@ -1,9 +1,15 @@
-from zad2ktesty import runtests
+# from zad2ktesty import runtests
 
 """
-Paskudne rozwiązanie, po najsłabszej linii oporu
-tutaj się dodaje dynamika, ale nie chce mi sie
-
+Zadanie 2 - Najdłuższy palindrom
+Szablon rozwiązania: zad2k.py
+Dany jest ciąg liter S. Proszę znaleźć taki SPÓJNY fragment tego podciągu, który będzie najdłuższym możliwym palindromem.
+Algorytm należy zaimplementować jako funkcję postaci:
+def palindrom( S ): …
+która przyjmuje ciąg S i zwraca ten najdłuższy palindrom.
+Przykład. Dla ciągu:
+aacaccabcc
+Wynikiem jest ciąg acca
 """
 
 
@@ -40,4 +46,4 @@ def palindrom(S):
     return maks
 
 
-runtests ( palindrom )
+# runtests ( palindrom )
